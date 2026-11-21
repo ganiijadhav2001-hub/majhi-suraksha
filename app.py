@@ -39,7 +39,7 @@ if uploaded_file is not None:
         else:
             with st.spinner("AI फोटोचे विश्लेषण करत आहे..."):
                 try:
-                    model = genai.GenerativeModel('gemini-2.5-flash')
+                    model = genai.GenerativeModel('gemini-3.8-flash')
                     
                     prompt = """
                     You are an expert Industrial Safety Officer. Analyze the uploaded workplace image for safety observations.
