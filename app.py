@@ -16,7 +16,7 @@ except Exception:
     if api_key:
         genai.configure(api_key=api_key)
 
-PORTAL_URL =  https://mazisuraksha.garwarehitechfilms.com/
+PORTAL_URL = "https://mazisuraksha.garwarehitechfilms.com/"
 
 with st.expander("👤 तुमची माहिती भरा (पोर्टलवर Auto-Fill होण्यासाठी)", expanded=True):
     col1, col2 = st.columns(2)
