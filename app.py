@@ -106,7 +106,7 @@ if uploaded_file is not None:
 
                     last_err = ""
                     response = None
-                    for m in ['gemini-3.8-flash', 'gemini-3.1-flash', 'gemini-2.5-flash']:
+                    for m in ['gemini-3.8-flash']:
                         try:
                             response = client.models.generate_content(
                                 model=m,
